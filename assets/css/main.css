@@ -1,0 +1,51 @@
+/* MAIN */
+
+main {
+    background-color: #ffc017;
+    margin-top: 100px;
+    border-bottom: 1px solid black;
+}
+
+.containerDiscover {
+    display: flex;
+    margin: 0 16%;
+
+}
+
+.containerDiscover img {
+    position: relative;
+    right: -290px;
+    width: 800px;
+    height: auto;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.containerText h1 {
+    font-family: "Spectral", serif;
+    font-size: 100px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+
+.containerText p {
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.containerText button {
+    margin-top: 40px;
+    font-size: 16px;
+    border: none;
+    background-color: #191919;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
